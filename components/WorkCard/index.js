@@ -1,6 +1,8 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const WorkCard = ({ img, name, description, onClick }) => {
+  let router = useRouter()
   return (
     <div
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
@@ -8,7 +10,8 @@ const WorkCard = ({ img, name, description, onClick }) => {
     >
       <div
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
-        style={{ height: "600px" }}
+        style={{ height: "450px" }}
+        onClick={()=>router.push('Gallery')}
       >
         <img
           alt={name}
