@@ -30,42 +30,42 @@
       "id": "1",
       "title": "Kitchens",
       "description": "3ds max + Corona Renderer",
-      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/portfolio2-47f7e.appspot.com/o/2_Post.jpg?alt=media&token=10e41bfc-3597-461d-9102-6d708f1797c2",
+      "imageSrc": "imgs/2_Post-OIVKsyhs.jpg",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "2",
       "title": "Office Space",
       "description": "Unreal Engine",
-      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/portfolio2-47f7e.appspot.com/o/office_view_1.jpg?alt=media&token=b3b750f8-2300-42a6-952a-75abde58ca24",
+      "imageSrc": "imgs/office_view_2-bqWKsyhs.jpg",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "3",
       "title": "Bathroom | Vanity",
       "description": "3ds max + V-ray",
-      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/portfolio2-47f7e.appspot.com/o/bathroom1%20(1).jpg?alt=media&token=8be3693d-0c9b-4f9e-9431-c758dfebcbea",
+      "imageSrc": "imgs/bathroom1__1_-udUKsyhs.jpg",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "4",
       "title": "Pooja Area",
       "description": "Inspiring Designs",
-      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/portfolio2-47f7e.appspot.com/o/crockery%20(1).jpg?alt=media&token=e2100dab-c3d5-4584-8db3-103467df981f",
+      "imageSrc": "imgs/crockery__1_-C7MKsyhs.jpg",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "5",
       "title": "Storage",
       "description": "Colorfull",
-      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/portfolio2-47f7e.appspot.com/o/kbr1.jpg?alt=media&token=84bf7e3e-cb47-45e2-8e0d-4a2c8263250f",
+      "imageSrc": "imgs/kbr1-QgKKsyhs.jpg",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "6",
       "title": "Exterior Elevation",
       "description": "Farm House",
-      "imageSrc": "https://firebasestorage.googleapis.com/v0/b/portfolio2-47f7e.appspot.com/o/VIEW%20(6).jpg?alt=media&token=f03cc2fa-6a35-43f4-96d1-73f9b88884de",
+      "imageSrc": "imgs/VIEW__6_-cldLsyhs.jpg",
       "url": "http://chetanverma.com/"
     }
   ],
@@ -91,32 +91,32 @@
       "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "As a civil engineer with 3 years of professional experience as a 3D visualizer, I bring a unique set of skills and expertise to your work. My background in engineering gives a strong understanding of the technical aspects of building design and construction, while my experience as a visualizer allows me to create highly detailed and accurate 3D renderings of projects. In addition to your professional experience, I also have over one year of experience as a freelancer. This demonstrates my ability to manage your own projects and clients, and communicate effectively with stakeholders.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋  I'm a 3D Visualizer, Interior Designer and Unreal Engine Artist.",
+    "description": "I have a solid foundation in the field and can likely handle a variety of projects with confidence. As a 3D visualizer, attention to detail is the key. As a visualizer, I have a strong sense of aesthetics and an ability to come up with unique solutions to design challenges. The ability to clearly and effectively communicate with clients, team members, and other stakeholders is important in any role. ",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
+        "dates": "April 2019 - July 2020",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
+        "position": "3D visualizer | Interior Designer",
+        "bullets": "Expert in creating 3D models and animations of interior spaces, including kitchens, living rooms, bedrooms, and more, Collaborated with a team of designers and architects to ensure project cohesion and consistent quality"
       },
       {
         "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
+        "dates": "January 2021 - July 2022",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "position": "3D visualizer | Unreal Engine Artist",
+        "bullets": "Worked closely with interior designers to understand their vision and bring it to life through 3D models and animations, I have learned about Unreal Engine, rendering, walkthrough videos, and creating applications in Unreal Engine."
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "B.E. Civil from JNNCE Shimoga",
+      "universityDate": "2014-2018",
+      "universityPara": ""
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "languages": ["3ds max", "Corona Renderer", "V-ray", "AutoCAD", "Unreal Engine","Premier Pro"],
     "frameworks": ["React", "Typescript", "NodeJs"],
     "others": ["Figma", "AdobeXD", "AWS"]
   }

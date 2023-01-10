@@ -16,7 +16,13 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               TOGETHER
             </h1>
-            <Button type="primary">Schedule a call</Button>
+            <div className="justify-start flex items-center">
+
+            <span className="px-6 py-2 text-white bg-black rounded-xl">Call Now</span><span className="px-5 text-xl font-bold">:</span><span className="text-xl text-purple-800">+91 9686274029</span>
+            </div>
+            <div className="mt-5">
+            <span className="px-6 py-2 text-white bg-black rounded-xl">Email</span><span className="px-5 text-xl font-bold">:</span><span className="text-xl text-purple-800">SANKETH.SURA.1@GMAIL.COM</span>
+            </div>
             <div className="mt-10">
               <Socials />
             </div>

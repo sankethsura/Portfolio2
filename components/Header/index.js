@@ -132,19 +132,19 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {!isBlog ? (
           <div className="flex">
             <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={()=>router.push('/Gallery')}>Gallery</Button>
+            <Button onClick={()=>window.open('https://sankethgallery.netlify.app/')}>Gallery</Button>
             <Button onClick={handleAboutScroll}>About</Button>
             {/* {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )} */}
-            {showResume && (
+            {/* {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
                 Resume
               </Button>
-            )}
+            )} */}
 
             <Button onClick={() => window.open("mailto:sanketh.sura.1@gmail.com")}>
               Contact
@@ -163,17 +163,17 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         ) : (
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
-            {showBlog && (
+            {/* {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
-            {showResume && (
+            )} */}
+            {/* {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
                 Resume
               </Button>
-            )}
+            )} */}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
               Contact

@@ -25,14 +25,14 @@ const Resume = () => {
     <>
       {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
-          <Button onClick={() => router.push("/edit")} type={"primary"}>
+          {/* <Button onClick={() => router.push("/edit")} type={"primary"}>
             Edit Resume
-          </Button>
+          </Button> */}
         </div>
       )}
 
       <Cursor />
-      <div className="container mx-auto cursor-none mb-10">
+      <div className="container mx-auto cursor-none mb-10 w-[90vw]">
         <Header isBlog />
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
@@ -81,7 +81,7 @@ const Resume = () => {
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Languages</h2>
+                      <h2 className="text-lg font-semibold">Softwares</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
                           <li key={index} className="ml-5 py-2">
@@ -94,7 +94,7 @@ const Resume = () => {
 
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                      <h2 className="text-lg font-semibold">Unreal Engine</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">

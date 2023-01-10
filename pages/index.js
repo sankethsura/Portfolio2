@@ -98,7 +98,8 @@ export default function Home() {
               {data.headerTaglineFour}
             </h1>
           </div>
-
+          <div className="px-5 py-2 bg-black text-white items-center justify-center text-center mt-3 rounded-xl shadow-md hover:bg-slate-700 duration-500"
+          onClick={()=>window.open('https://sankethgallery.netlify.app/')}>Open Gallery</div>
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
@@ -115,7 +116,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
+        {/* <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:m-10 text-2xl text-bold">Services.</h1>
           <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
@@ -126,7 +127,7 @@ export default function Home() {
               />
             ))}
           </div>
-        </div>
+        </div> */}
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
           <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">

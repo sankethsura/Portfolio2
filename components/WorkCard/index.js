@@ -11,7 +11,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
       <div
         className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"
         style={{ height: "450px" }}
-        onClick={()=>router.push('Gallery')}
+        onClick={()=>window.open('https://sankethgallery.netlify.app/')}
       >
         <img
           alt={name}
